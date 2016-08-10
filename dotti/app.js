@@ -65,15 +65,12 @@ export default class Dotti extends Adapter {
 
       this.currentColor = this.colorFromRgb(this.$activeColorButton.style.backgroundColor);
 
-
       this.$pickerButton.addEventListener('click', event => {
         if (this.colorChangeListener) {
           this.$picker.removeEventListener('color-as-string-changed', this.colorChangeListener);
         }
         this.$picker.set('immediateColor', this.colorFromRgb(this.$activeColorButton.style.backgroundColor));
         this.$picker.addEventListener('color-as-string-changed', this.colorChangeListener = () => {
-          //console.log(this);
-          //console.log(this.$activeColorButton);
           this.$activeColorButton.style.backgroundColor = this.colorToHex(this.$picker.color);
           this.currentColor.red = this.$picker.color.red;
           this.currentColor.green = this.$picker.color.green;
@@ -152,8 +149,6 @@ export default class Dotti extends Adapter {
 
   buttonClicked(event) {
     let id = event.target.id;
-    //console.log(this);
-    //console.log(this.currentColor);
     this.setLedColor(Number(id.substring(6,7)), Number(id.substring(7,8)), this.currentColor.red, this.currentColor.green, this.currentColor.blue);
     event.target.style.backgroundColor = this.colorToHex(this.currentColor);
   }
@@ -198,4 +193,3 @@ export default class Dotti extends Adapter {
 
 }
 window.app = new Dotti();
-
