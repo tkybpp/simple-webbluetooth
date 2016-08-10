@@ -1,8 +1,8 @@
 {
-  "name": "LED Display",
+  "name": "simple-webbluetooth",
   "version": "0.0.0",
   "authors": [
-    "Google"
+    "tkybpp"
   ],
   "main": "index.html",
   "license": "Apache License 2.0",
