@@ -2,14 +2,18 @@
   "name": "simple-webbluetooth",
   "version": "0.0.0",
   "scripts": {
-    "build": "browserify --entry candle/app.js -t babelify --outfile dist/candle.js -d --s app",
-    "watch:js": "watchify --entry app/app.js -t babelify --outfile dist/app.js -d --s app -v"
+    "build:all": "npm-run-all build:js:*",
+    "build:js:candle": "browserify --entry candle/app.js -t babelify --outfile dist/candle.js -d --s app",
+    "build:js:dotti": "browserify --entry dotti/app.js -t babelify --outfile dist/dotti.js -d --s app",
+    "watch:js:candle": "watchify --entry candle/app.js -t babelify --outfile dist/candle.js -d --s app -v"
+    "watch:js:dotti": "watchify --entry dotti/app.js -t babelify --outfile dist/dotti.js -d --s app -v"
   },
   "devDependencies": {
     "babelify": "^6.1.2",
     "browserify": "^10.2.4",
     "connect": "^3.4.1",
     "morgan": "^1.7.0",
+    "npm-run-all": "^1.3.2",
     "phoenix-js": "^1.0.3",
     "serve-static": "^1.10.2",
     "watchify": "^3.7.0"
