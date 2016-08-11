@@ -17,6 +17,7 @@ To use SSL on localhost with WebBluetoothAPI:
   2. Generate cert with `openssl req -new -x509 -key localhost.key -out localhost.cert -days 3650 -subj /CN=localhost`
   3. Put them in a directory `/keys/`
   4. Start server with  `node server.js`
+  5. Now you can visit [`localhost:3000`](https://localhost:3000/name-of-sample-app/) with SSL from your browser.
 
 To update and build js file:
  1. `npm install`
