@@ -5,8 +5,10 @@
     "build:all": "npm-run-all build:js:*",
     "build:js:candle": "browserify --entry candle/app.js -t babelify --outfile dist/candle.js -d --s app",
     "build:js:dotti": "browserify --entry dotti/app.js -t babelify --outfile dist/dotti.js -d --s app",
+    "build:js:bb8": "browserify --entry bb8/app.js -t babelify --outfile dist/bb8.js -d --s app",
     "watch:js:candle": "watchify --entry candle/app.js -t babelify --outfile dist/candle.js -d --s app -v",
-    "watch:js:dotti": "watchify --entry dotti/app.js -t babelify --outfile dist/dotti.js -d --s app -v"
+    "watch:js:dotti": "watchify --entry dotti/app.js -t babelify --outfile dist/dotti.js -d --s app -v",
+    "watch:js:bb8": "watchify --entry bb8/app.js -t babelify --outfile dist/bb8.js -d --s app -v"
   },
   "devDependencies": {
     "babelify": "^6.1.2",
