@@ -11,13 +11,14 @@ You only have to set filter and service/characteristic identifiers.
 
 ## How to use
 You can use these demo on your local environment.  
-To use SSL on localhost with WebBluetoothAPI
+
+To use SSL on localhost with WebBluetoothAPI:
   1. Generate key with `openssl genrsa -out localhost.key 2048`
   2. Generate cert with `openssl req -new -x509 -key localhost.key -out localhost.cert -days 3650 -subj /CN=localhost`
   3. Put them in a directory `/keys/`
   4. Start server with  `node server.js`
 
-To update and build js file
+To update and build js file:
  1. `npm install`
  2. Update/Create js file in each samples
  3. `npm run build:js:(candle|dotti)` to build js file  
