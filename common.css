@@ -1,3 +1,4 @@
+<style is="custom-style">
 body {
   background-color: var(--paper-grey-50);
 }
@@ -37,3 +38,4 @@ paper-card {
   margin-top: 5px;
   width: 100%;
 }
+</style>
