@@ -25,14 +25,13 @@ export default class BB8 extends Adapter {
       this.sequence = 0;
       this.busy = false;
 
-
       // End of WebComponentsReady Event
     });
 
     // Notice : This is bad prosses...
     this.count = 0;
-    for ( var service in characteristicList ) {
-      for ( var characteristic in characteristicList[service] ) {
+    for ( let service in characteristicList ) {
+      for ( let _ in characteristicList[service] ) {
         this.count++;
       }
     }
