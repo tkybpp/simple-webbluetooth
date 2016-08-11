@@ -8,6 +8,7 @@ You only have to set filter and service/characteristic identifiers.
 
 - [PLAY BULB CANDLE](https://tkybpp.github.io/simple-webbluetooth/candle/)
 - [DOTTI LED DISPLAY](https://tkybpp.github.io/simple-webbluetooth/dotti/)
+- [BB-8](https://tkybpp.github.io/simple-webbluetooth/bb8/)
 
 ## How to use
 You can use these demo on your local environment.  
