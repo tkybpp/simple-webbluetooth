@@ -1,8 +1,7 @@
 # simple-webbluetooth
 
 ## Description
-This provide a simple adapter which make is easy to create WebBluetooth application.
-
+This provide a simple adapter which make is easy to create WebBluetooth application.  
 You only have to set filter and service/characteristic identifiers.
 
 ## Live demo
@@ -16,6 +15,5 @@ You only have to set filter and service/characteristic identifiers.
 - [Web Bluetooth Specification (Official)](https://webbluetoothcg.github.io/web-bluetooth/) , [(Japanese)](https://tkybpp.github.io/web-bluetooth-jp/)
 
 ### Notice
-This examples is with reference to these demos:
-
+This examples is with reference to these demos:  
 [https://github.com/WebBluetoothCG/demos](https://github.com/WebBluetoothCG/demos)
