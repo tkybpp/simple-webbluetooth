@@ -2,6 +2,7 @@
 
 ## Description
 This provide a simple adapter which make is easy to create WebBluetooth application.
+
 You only have to set filter and service/characteristic identifiers.
 
 ## Live demo
@@ -16,4 +17,5 @@ You only have to set filter and service/characteristic identifiers.
 
 ### Notice
 This examples is with reference to these demos:
+
 [https://github.com/WebBluetoothCG/demos](https://github.com/WebBluetoothCG/demos)
