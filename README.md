@@ -23,9 +23,9 @@ To use SSL on localhost with WebBluetoothAPI:
 To update and build js file:
  1. `npm install`
  2. Update/Create js file in each samples
- 3. `npm run build:js:(candle|dotti)` to build js file  
+ 3. `npm run build:js:(candle|dotti|bb8)` to build js file  
       `npm run build:all` can build all file at thesame time
- 4. You can also use Watchify `npm rum watch:js:(candle|dotti)`
+ 4. You can also use Watchify `npm rum watch:js:(candle|dotti|bb8)`
 
 ## Reference
 
