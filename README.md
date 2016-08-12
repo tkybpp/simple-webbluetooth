@@ -34,3 +34,6 @@ To update and build js file:
 ### Notice
 This examples is with reference to these demos:  
 [https://github.com/WebBluetoothCG/demos](https://github.com/WebBluetoothCG/demos)
+
+
+[![Analytics](https://ga-beacon.appspot.com/UA-81839949-3/simple-webbluetooth)](https://github.com/tkybpp/simple-webbluetooth)
